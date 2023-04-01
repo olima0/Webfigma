@@ -1,4 +1,36 @@
 body{
     background-color: #070f27;
 }
+p#titulo{
+    color: #EAFC8F;
+    position: absolute;
+    width: 134px;
+    height: 15px;
+    left: 640px;
+}
+picture#Logo{
+    position:absolute;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    left: 620px;
+    top: 50px;
+}
+picture#Perfis{
+    position: absolute;
+    width: 10rem;
+    height: 5rem;
+    display: flex;
+    top: 200px;
+    left: 400px;
+
+}
+footer{
+    position: fixed;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    top: 290px;
+    left: 800;
+}
 

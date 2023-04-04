@@ -1,0 +1,56 @@
+.menu {
+    position: relative;
+  }
+  
+  .botao-menu {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .botao-menu span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .botao-menu.aberto span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+  }
+  
+  .botao-menu.aberto span:nth-child(2) {
+    transform: rotate(-45deg);
+  }
+  
+  .botao-menu.aberto span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+  
+  .itens-menu {
+    position: absolute;
+    top: 50%;
+    right: -200px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease-in-out;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+    z-index: 1;
+  }
+  
+  .botao-menu.aberto + .itens-menu {
+    transform: translateX(-100%);
+  }
+  

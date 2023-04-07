@@ -6,11 +6,30 @@
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 50%;
-    right: -20px;
-    transform: translateY(-50%);
-    cursor: pointer;
-  }
+        display:block;
+        background-color:black;
+        width:100%;
+        height:100%;
+        content:"";
+    }header nav label[for="menu-toggle"] div.menu-hamburger span.hamburger:before{
+        top: -10px;
+    }
+    header nav label[for="menu-toggle"] div.menu-hamburger span.hamburger:after{
+        bottom: -10px;
+    }
+    header nav input:checked ~ ul{
+        display:block;
+        animation: fade-in 1s;
+    }
+    header nav input:checked ~ label[for="menu-toggle"] div.menu-hamburguer span.hamburger{
+        transform: rotate(45deg);
+        transition:0.5s ease-in-out;
+    }
+    header nav input:checked ~ label[for="menu-toggle"] div.menu-hamburguer span.hamburger:before,
+    header nav input:checked ~ label[for="menu-toggle"] div.menu-hamburguer span.hamburger:after{
+        transform:rotate(90deg);
+        transition:0.5 ease-in-out;
+    }
   
   .botao-menu span {
     display: block;
@@ -53,4 +72,3 @@
   .botao-menu.aberto + .itens-menu {
     transform: translateX(-100%);
   }
-  

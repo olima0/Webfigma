@@ -48,45 +48,4 @@ header nav ul li a {
 
 header nav ul li:hover {
     color: gray;
-}
-
-main section p {
-    color: white;
-    text-transform: uppercase;
-    position: absolute;
-    left: 5%;
-    top: 15%;
-    font-family: 'Kanit', sans-serif;
-}
-
-main article {
-    display: grid;
-    position: absolute;
-    top: 24%;
-    left: 5%;
-}
-
-main article img {
-    margin-right: 1.4rem;
-}
-
-main p {
-    color: white;
-    text-transform: uppercase;
-    position: absolute;
-    left: 5%;
-    top: 57%;
-    font-family: 'Kanit', sans-serif;
-    font-size: x-large;
-}
-
-main aside {
-    position: absolute;
-    top: 66%;
-    left: 5%;
-}
-
-main aside img {
-    margin-right: 1.4rem;
-}
-
+}       

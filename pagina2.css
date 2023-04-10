@@ -60,7 +60,7 @@ main section p {
 }
 
 main article {
-    display: grid;
+    display: flex;
     position: absolute;
     top: 24%;
     left: 5%;
@@ -89,4 +89,3 @@ main aside {
 main aside img {
     margin-right: 1.4rem;
 }
-

@@ -1,0 +1,11 @@
+@media(max-width: 600px){
+    img#nots{
+        width: 70%;
+    }
+}
+
+@media(max-width: 1139px){
+    img#nots{
+        width: 80%;
+    }
+}

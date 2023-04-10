@@ -11,6 +11,8 @@
     z-index: 999;
     width: 35px;
     height: 35px;
+    top:50px;
+    right: 5px;
 }
 
 .menu .menu-lines span{

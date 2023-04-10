@@ -3,6 +3,8 @@
     z-index: 1000;
     width: 35px;
     height: 35px;
+    left: (100vw - 40vw);
+    margin-left: 10px;
     opacity: 0.5;
     cursor: pointer;
 }
@@ -11,8 +13,7 @@
     z-index: 999;
     width: 35px;
     height: 35px;
-    top:50px;
-    right: 5px;
+    left: (100vw - 40vw);
 }
 
 .menu .menu-lines span{
@@ -44,14 +45,19 @@
 .menu ul{
     position: absolute;
     z-index: 998;
+    display: none;
     top: 0;
-    left: 0;
-    width: 300px;
-    height: calc(100vh - 100px);
+    left: calc(100vw - 40vw);
+    width: 70vw;
+    height: 100%;
     padding-top: 100px;
     background-color: #ededed;
     margin-left: -300px;
     transition: all ease .2s;
+    border-left: #000;
+    border-bottom: #000;
+    border-top: #000;
+    background-color: wheat;
 }
 .menu.menu-faketrigger:checked~ul{
     margin-left: 0;
